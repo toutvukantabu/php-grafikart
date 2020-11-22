@@ -24,21 +24,17 @@
 
 require 'form.php';
 
-$form = new Form(array(
-    'username' =>'Roger'
-));
+$form = new Form($_POST);
 
+?>
+<form action="#" method="post">
+    <?php
 echo $form->input('username');
 echo $form->input('password');
 echo $form->submit();
+?>
+</form>
 
 
-$form = new Form(array(
-    'username' =>'Roger'
-));
-
-echo $form->input('username');
-echo $form->input('password');
-echo $form->input('submit');
 
 
