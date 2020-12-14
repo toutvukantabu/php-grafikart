@@ -1,6 +1,6 @@
 <?php 
 $title= "Page d'accueil";
-$nav="index";
+
 require 'header.php'; ?>
 
   <div class="starter-template text-center py-5 px-3">
