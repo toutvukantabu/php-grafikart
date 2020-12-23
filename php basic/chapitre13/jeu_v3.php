@@ -32,7 +32,7 @@ Affichage des alertes  -->
 <?= $parfum ?>-<?= $prix ?>
 
     </label>
-</div>
+</div> 
 <?php endforeach ?>
 </form>
 
