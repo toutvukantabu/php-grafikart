@@ -66,7 +66,6 @@ require_once 'functions.php';
 
 
     <!--  Premiere façon de l'ecrive avec variable super globale -->
-    
     <!-- <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4 ">
          <div class="container-fluid">
              <a class="navbar-brand" href="#">Mon site</a>

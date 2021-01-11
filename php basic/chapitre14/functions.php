@@ -9,9 +9,6 @@
             $classe = $classe  . 'active';
             //$classe .= ' active';
         }
-
-        // Premiere façon de l'écrire
-        
         //return' <li class="nav-item">
         //<a class="'. $classe . '" href="' . $lien . '"> ' . $titre . '</a>
         ///</li> ';
