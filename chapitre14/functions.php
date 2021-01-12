@@ -27,6 +27,38 @@ return
 nav_item('/index.php', 'Accueil', $linkClass) .
 nav_item('/contact.php', 'Accueil', $linkClass);
 
-    };
+    }
+
+    // CREER des var dump
+
+    function dump($variable){
+        echo '<pre>';
+        var_dump($variable);
+        echo '</pre>';
+        }
+
+function creneaux_html( array $creneaux){
+    
+    // v1 voir si un tableau est vide ou pas  
+    
+    // if (count($creneaux) === 0){
+
+    //     return 'fermé';
+    // }
+
+    //V2
+    if(empty($creneaux)){
+return 'fermé';
+    }
+$phrases = [];
+
+foreach ($creneaux as $creneau){
+
+    $phrases[] = "de {$creneau[0]}h à {$creneau[1]}h";
+}
+//on utilise implode pour lier les deux tableaux
+
+return 'ouvert  '. implode(' et ' , $phrases );
+      }
 
 ?>
