@@ -1,6 +1,6 @@
 <?php 
 function ajouter_vue(): void{
-$fichier = dirname(__dir__). DIRECTORY_SEPARATOR . 'chapitre19' . DIRECTORY_SEPARATOR . 'compteur';
+$fichier = dirname(__dir__). DIRECTORY_SEPARATOR . 'chapitre20' . DIRECTORY_SEPARATOR . 'compteur';
 //Creation d'un fichier compteur journalier
 $fichier_journalier = $fichier . '-' . date('Y-m-d');
 incrementer_compteur($fichier);

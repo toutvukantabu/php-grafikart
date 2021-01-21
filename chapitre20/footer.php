@@ -6,7 +6,7 @@
   <div class="col-md-4">
   
   <?php 
-  require_once dirname(__DIR__) . DIRECTORY_SEPARATOR .  'chapitre19'  . DIRECTORY_SEPARATOR .  'compteur.php'  ;
+  require_once dirname(__DIR__) . DIRECTORY_SEPARATOR .  'chapitre20'  . DIRECTORY_SEPARATOR .  'compteur.php'  ;
   ajouter_vue();
  $vues = nombre_vues();  
 
