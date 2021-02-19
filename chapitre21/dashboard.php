@@ -1,5 +1,9 @@
 <?php
-
+require 'auth.php';
+if(!est_connecte()){
+    header('Location : /login.php');
+    exit();
+}
 require_once 'compteur.php';
 $annee = (int)date('Y');
 $annee_selection = empty($_GET['annee']) ? null : (int)$_GET['annee'];
